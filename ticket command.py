@@ -59,4 +59,4 @@ async def ticket_error(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
         await ctx.send("チケットの内容を提供してください。例: `!ticket サーバーがダウンしています`")
 
-bot.run("MTE5MDQ3NTkyODg2MjcyNDI4OA.G7nFxB.FBC_9pauOIJSYgog5yoc-sLpvBmbzHM8XMGQIU")
+bot.run("TOKEN")
